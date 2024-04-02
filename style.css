@@ -1,0 +1,196 @@
+body{
+  margin: 0px;
+  background: white;
+}
+
+.home{
+  background: #0B032B;
+  height: 70px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+p{
+  color: white;
+
+}
+#btnhome{
+  border: solid 3px transparent;
+  width: 70px;
+  margin-top: 14px;
+  border-radius: 30px;
+
+  background: darkorange;
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+
+#flex{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 8px;
+  margin-left: -10px;
+
+}
+
+
+
+
+#home{
+  background: #1D2B53;
+  height: 70vh;
+  border-radius: 20px;
+  width: 85%;
+  margin: auto;
+  position: absolute;
+  top:100px;
+  
+  display: none;
+}
+
+
+h3{
+  color: white;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+
+#dark{
+  margin-top: 30px;
+  background: darkorange;
+  border: solid 2px transparent;
+  border-radius: 5px;
+  margin-left:20px;
+  box-shadow: 2px 0px 10px #49494E;
+}
+
+#menu2,#menu1{
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 19px;
+}
+#menu3{
+  text-align: center;
+  padding-top: 30px;
+  
+  font-family: sans-serif;
+  font-size: 17px
+}
+#menu2{
+  font-size: 17px;
+}
+#menu2:hover{
+  color: #DDDDDD;
+}
+#menu1:hover{
+  color: #DDDDDD;
+}
+
+@media only screen and (min-width: 600px){
+  
+  .home{
+   height:  100px;
+  }
+
+
+#home{
+  background: darkslategray;
+  height: 50vh;
+  border-radius: 50px;
+  width: 60%;
+  margin: auto;
+  position: absolute;
+  top: 180px;
+  
+  display: none;
+}
+
+
+#btnhome{
+  height: 40px;
+  top: 15px;
+}
+.logo{
+  text-align: center ;
+  margin-top: -2000px;
+}
+img.icon{
+width: 67px;  
+position: relative;
+top: 16px;
+margin-left: 10px;
+}
+
+h3.logo{
+  text-align: center;
+  position: relative;
+  top: -17px;
+}
+
+}
+
+
+
+
+.flex3u{
+  display: flex;
+  justify-content: right;
+}
+
+h3.logo{
+  text-align: center;
+  margin-top: -47px;
+}
+
+.icon{
+width: 50px;  
+position: relative;
+top: 10px;
+border-radius: 30%;
+left: 10px;
+}
+
+div.info{
+  margin-top: 0px;
+  background: #44454F;
+  height: 180px;
+  border-radius: 30px;
+  width: 95%;
+  margin: auto;
+}
+p.info1{
+  text-align: right;
+  color: white;
+  margin-right: 30px;
+  padding-top: 10px;
+}
+
+#countdown{
+  text-align: center;
+  margin-top: 0px;
+
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+
+#username{
+  text-align: left;
+  margin-left: 16px;
+  color: #648B86;
+  
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #0B161B;
+}
+

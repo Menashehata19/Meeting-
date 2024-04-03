@@ -96,7 +96,7 @@ h3{
   .home{
    height:  100px;
   }
-
+  
 
 #home{
   background: darkslategray;
@@ -111,10 +111,8 @@ h3{
 }
 
 
-#btnhome{
-  height: 40px;
-  top: 15px;
-}
+
+
 .logo{
   text-align: center ;
   margin-top: -2000px;
@@ -131,6 +129,20 @@ h3.logo{
   position: relative;
   top: -17px;
 }
+
+#infomobile{
+  background: #7F8191;
+  height: 200px;
+  border-radius: 20px;
+  width: 200px;
+
+  position: absolute;
+  top: 300px;
+  display: none ;
+}
+
+
+
 
 }
 
@@ -192,5 +204,64 @@ p.info1{
   font-weight: 400;
   font-style: normal;
   color: #0B161B;
+}
+
+#buttoninfo{
+  
+border: solid 1px transparent;
+  width: 85px;
+  margin-top: 45px;
+  border-radius: 5px;
+  height: 23px;
+  background: darkorange;
+  position: absolute;
+  left: 18px;
+  top: 12px;
+}
+
+#infomobile{
+  background: #7F8191;
+  height: 200px;
+  border-radius: 20px;
+  width: 200px;
+
+  position: absolute;
+  top: 120px;
+  display: none ;
+}
+
+
+#exitinfo{
+  position: relative;
+  top: -18px;
+  left: -15px;
+  font-size: 25px
+}
+
+.flexinfo{
+  display: flex;
+  justify-content: center;
+
+  
+  
+}
+
+.flexexit4{
+  display: flex;
+  justify-content: right;
+}
+
+
+.flexpi1{
+display: flex;
+justify-content: center;
+flex-direction: column;
+  
+}
+
+.exiwh{
+ position: relative;
+ left: 20px;
+ top: -40px;
 }
 

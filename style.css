@@ -38,13 +38,13 @@ p{
 
 #home{
   background: #1D2B53;
-  height: 70vh;
+  height: 60vh;
   border-radius: 20px;
   width: 85%;
   margin: auto;
   position: absolute;
   top:100px;
-  
+  z-index: 1;
   display: none;
 }
 
@@ -93,6 +93,11 @@ h3{
 
 @media only screen and (min-width: 600px){
   
+
+  
+  
+  
+  
   .home{
    height:  100px;
   }
@@ -130,16 +135,7 @@ h3.logo{
   top: -17px;
 }
 
-#infomobile{
-  background: #7F8191;
-  height: 200px;
-  border-radius: 20px;
-  width: 200px;
 
-  position: absolute;
-  top: 300px;
-  display: none ;
-}
 
 
 
@@ -221,10 +217,10 @@ border: solid 1px transparent;
 
 #infomobile{
   background: #7F8191;
-  height: 200px;
+  height: 300px;
   border-radius: 20px;
   width: 200px;
-
+  z-index: 1;
   position: absolute;
   top: 120px;
   display: none ;
@@ -261,7 +257,105 @@ flex-direction: column;
 
 .exiwh{
  position: relative;
- left: 20px;
+ left: 10px;
  top: -40px;
+font-family: "Iceberg", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
 }
+
+
+
+#fotball{
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 95%;
+  height: 500px;
+  border-radius: 30px;
+  background: darkorange;
+  
+}
+
+.imfo{
+  width: 95%;
+  height: 500px;
+}
+
+
+
+
+
+.player{
+  background: black;
+  position: relative;
+  top: 100px;
+    margin: auto;
+  width: 95%;
+  height: 350px;
+  border-radius: 30px;
+  background: #2E2F39;
+}
+
+
+
+
+@media only screen and (min-width: 600px) {
+    #fotball{
+  position: relative;
+  top: 50px;
+  margin: auto;
+  width: 50%;
+  height: 600px;
+  border-radius: 30px;
+  background: darkorange;
+  
+}
+
+
+.imfo{
+  width: 95%;
+  height: 600px;
+}
+
+
+.player{
+  background: black;
+  position: relative;
+  top: 100px;
+    margin: auto;
+  width: 50%;
+  height: 350px;
+  border-radius: 30px;
+  background: #2E2F39;
+}
+
+#infomobile{
+  background: #7F8191;
+  height: 300px;
+  border-radius: 20px;
+  width: 200px;
+
+  position: absolute;
+  top: 250px;
+  display: none ;
+}
+
+}
+
+
+
+
+
+
+
+.playerf{
+  color: white;
+  text-align: right;
+  position: relative;
+  right: 20px;
+  top: 20px;
+}
+
 

@@ -163,7 +163,7 @@ let p2m = document.getElementById('pmenu2');
 let p3m = document.getElementById('pmenu3');
 
 
-p1m.innerHTML= "screen width : " +screen.width;
+p1m.innerHTML= "screen  : " +screen.width + 'x' +  screen.height;
 
 
 p2m.innerHTML="ip phone " ;
@@ -214,6 +214,23 @@ function multiply(num1, num2) {
 
 
 p3m.innerHTML = "your use : " + (getDeviceType());
+
+
+let pm4 = document.getElementById('pmenu4');
+
+let pm5 = document.getElementById('pmenu5');
+
+let lan = navigator.language;
+
+
+
+
+pm4.innerHTML= "language phone : " + lan;
+let ios = navigator.onLine;
+
+pm5.innerHTML= "Internet connection : "+ ios;
+
+
 
 
 
